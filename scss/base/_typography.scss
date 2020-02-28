@@ -1,0 +1,98 @@
+p {
+  color: $colorGrey;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Work Sans, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: $colorGreyL;
+  font-size: 0.96rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: Playfair Display, serif;
+  font-size: 3.4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-family: Playfair Display, serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.7rem;
+  font-family: Playfair Display, serif;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: Playfair Display, serif;
+}
+
+h5 {
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.italic {
+  font-style: italic;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.93rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 1.1rem;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+.white {
+  color: white;
+}
+
+.resized {
+  font-size: 1.25rem;
+}
+
+.comment {
+  color: white;
+  &--author {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    line-height: 1.55;
+  }
+}
+
+.about__gallery__inner__alt {
+  p {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -10px;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 15px;
+  }
+}
+
+.best__gallery__block__alt {
+  p {
+    color: white;
+    text-transform: uppercase;
+  }
+}
+
+.forms__form__textArea {
+  color: $colorGrey;
+  font-family: Work Sans, sans-serif;
+}

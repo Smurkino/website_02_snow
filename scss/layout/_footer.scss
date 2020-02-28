@@ -1,0 +1,18 @@
+.footer {
+  width: 100vw;
+  text-align: center;
+  padding: 3rem;
+  background-color: $colorGreyL3;
+  li {
+    display: inline;
+    padding: 10px;
+    img {
+      width: 15px;
+    }
+  }
+
+  &__copytight {
+    padding: 1rem;
+    font-size: 0.8;
+  }
+}

@@ -1,0 +1,51 @@
+.button {
+  width: 180px;
+  padding: 18px 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background-color: $colorBlackL;
+  color: white;
+  &:hover {
+    background-color: $colorGrey;
+  }
+  &--withMargin {
+    margin-top: 5rem;
+  }
+}
+
+.scroll {
+  margin-top: 20rem;
+  display: flex;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  border: 1px solid $colorGreyL;
+  border-radius: 50%;
+  cursor: pointer;
+  fill: $colorGreyL;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  &:hover {
+    border: 1px solid white;
+    fill: white;
+  }
+}
+
+.pip {
+  width: 80px;
+  padding: 5.5px 15px;
+  text-transform: uppercase;
+  background-color: $colorBlackL;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+  font-family: Work Sans, sans-serif;
+  line-height: 1.65;
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+  opacity: 1;
+}
